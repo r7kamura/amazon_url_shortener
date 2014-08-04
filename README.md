@@ -1,5 +1,5 @@
 # amazon-url-modifier
-Modify URL when you access to any product page in amazon.co.jp.
+A chrome-extension to modify URL when you access to any product page in amazon.co.jp.
 
 ## Example
 ```
