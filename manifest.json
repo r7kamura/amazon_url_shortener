@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "amazon-url-modifier",
+  "description": "Modify URL when you access to any product URL in amazon.co.jp",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["http://www.amazon.co.jp/*"],
+      "js": ["js/script.js"]
+    }
+  ],
+  "permissions": [
+    "http://www.amazon.co.jp/"
+  ]
+}
