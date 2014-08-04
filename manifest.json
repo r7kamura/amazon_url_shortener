@@ -5,11 +5,15 @@
   "version": "0.0.1",
   "content_scripts": [
     {
-      "matches": ["http://www.amazon.co.jp/*"],
+      "matches": [
+        "http://amazon.co.jp/*",
+        "http://www.amazon.co.jp/*"
+      ],
       "js": ["js/script.js"]
     }
   ],
   "permissions": [
+    "http://amazon.co.jp/",
     "http://www.amazon.co.jp/"
   ]
 }
