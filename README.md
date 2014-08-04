@@ -7,7 +7,7 @@ A chrome-extension to modify URL when you access to any product page in amazon.c
 Install via Chrome Web Store.  
 https://chrome.google.com/webstore/detail/amazon-url-modifier/ajhdkbkpmpojmimfcdhhepjoobmknkck
 
-Pro tips: Set your amazon affiliate ID at the options page.
+Pro tip: Set your amazon affiliate ID at the options page.
 
 ### Example
 ```
