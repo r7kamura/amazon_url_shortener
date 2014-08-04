@@ -3,6 +3,11 @@
   "name": "amazon-url-modifier",
   "description": "Modify URL when you access to any product page in amazon.co.jp",
   "version": "0.0.1",
+  "options_page": "html/options.html",
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
   "content_scripts": [
     {
       "matches": [

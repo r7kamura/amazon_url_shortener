@@ -1,10 +1,15 @@
 window.onload = function() {
   var asinElement = document.getElementById("ASIN");
   if (asinElement) {
-    window.history.pushState(
+    chrome.extension.sendMessage(
       {},
-      "",
-      "/dp/" + asinElement.value
+      function(affiliateId) {
+        var path = "/dp/" + asinElement.value;
+        if (affiliateId && affiliateId != "") {
+          path = path + "/" + affiliateId;
+        }
+        window.history.pushState({}, "", path)
+      }
     );
   }
 };
