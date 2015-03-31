@@ -6,7 +6,7 @@ window.onload = function() {
       function(affiliateId) {
         var path = "/dp/" + asinElement.value;
         if (affiliateId && affiliateId != "") {
-          path = path + "/" + affiliateId;
+          path = path + "/?tag=" + affiliateId;
         }
         window.history.pushState({}, "", path)
       }
