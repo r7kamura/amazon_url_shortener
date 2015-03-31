@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "amazon-url-modifier",
   "description": "Modify URL when you access to any product page in amazon.co.jp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "options_page": "html/options.html",
   "background": {
     "scripts": ["js/background.js"],
