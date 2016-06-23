@@ -1,3 +1,6 @@
+## 0.0.4
+- Support HTTPS page
+
 ## 0.0.3
 - Fix Amazon associates URL (Thx @mallowlabs)
 
