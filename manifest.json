@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "amazon-url-modifier",
+  "name": "amazon_url_shortner",
   "description": "Modify URL when you access to any product page in amazon.co.jp",
   "version": "0.0.4",
   "options_page": "html/options.html",

@@ -1,4 +1,4 @@
-# amazon-url-modifier
+# amazon_url_shortner
 
 Chrome extension to shorten Amazon product URL.
 
@@ -6,7 +6,7 @@ Chrome extension to shorten Amazon product URL.
 
 ### Installation
 
-1. Download ZIP from [Releases](https://github.com/r7kamura/amazon-url-modifier/releases) and unzip it.
+1. Download ZIP from [Releases](https://github.com/r7kamura/amazon_url_shortner/releases) and unzip it.
 2. Go to Google Chrome extension settings (chrome://extensions/).
 3. Turn on Developer mode.
 4. Load directory from "Load unpacked".
