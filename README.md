@@ -9,7 +9,7 @@ Chrome extension to shorten Amazon product URL.
 1. Download ZIP from [Releases](https://github.com/r7kamura/amazon_url_shortner/releases) and unzip it.
 2. Go to Google Chrome extension settings (chrome://extensions/).
 3. Turn on Developer mode.
-4. Load directory from "Load unpacked".
+4. Load unzipped directory from "Load unpacked".
 
 ### How it works
 
