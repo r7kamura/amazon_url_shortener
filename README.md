@@ -1,6 +1,6 @@
 # Amazon URL Shortner
 
-Chrome extension to shorten Amazon product URL.
+Chrome extension to automatically shorten Amazon product URL.
 
 ## Usage
 
