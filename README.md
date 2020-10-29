@@ -13,11 +13,11 @@ Chrome extension to automatically shorten Amazon product URL.
 
 ### How it works
 
-This extension automatically converts a long URL:
+When you visit an Amazon product page with a long URL:
 
 > http://amazon.co.jp/NEW-GAME-1-%E3%81%BE%E3%82%93%E3%81%8C%E3%82%BF%E3%82%A4%E3%83%A0KR%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%BE%97%E8%83%BD%E6%AD%A3%E5%A4%AA%E9%83%8E/dp/4832244140
 
-into a canonical one:
+this extension automatically rewrites the URL into a shorter one:
 
 > http://amazon.co.jp/dp/4832244140
 
