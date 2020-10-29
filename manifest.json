@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "amazon_url_shortner",
-  "description": "Modify URL when you access to any product page in amazon.co.jp",
+  "description": "Chrome extension to automatically shorten Amazon product URL.",
   "version": "0.0.4",
   "options_page": "html/options.html",
   "background": {
