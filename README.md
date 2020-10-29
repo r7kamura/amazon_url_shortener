@@ -1,4 +1,4 @@
-# Amazon URL Shortner
+# Amazon URL Shortener
 
 Chrome extension to automatically shorten Amazon product URL.
 
@@ -6,7 +6,7 @@ Chrome extension to automatically shorten Amazon product URL.
 
 ### Installation
 
-1. Download ZIP from [Releases](https://github.com/r7kamura/amazon_url_shortner/releases) and unzip it.
+1. Download ZIP from [Releases](https://github.com/r7kamura/amazon_url_shortener/releases) and unzip it.
 2. Go to Google Chrome extension settings (chrome://extensions/).
 3. Turn on Developer mode.
 4. Load unzipped directory from "Load unpacked".
