@@ -13,6 +13,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 0.1.0 - 2020-10-31
 
+### Changed
+
+- Change extension name from "amazon-url-modifier" to "amazon_url_shortener".
+
 ### Removed
 
 - Remove optional affiliate association feature.
