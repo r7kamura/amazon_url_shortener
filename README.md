@@ -6,13 +6,6 @@ Chrome extension to automatically shorten Amazon product URL.
 
 ## Usage
 
-### Installation
-
-1. Download ZIP from [Releases](https://github.com/r7kamura/amazon_url_shortener/releases) and unzip it.
-2. Go to Google Chrome extension settings (chrome://extensions/).
-3. Turn on Developer mode.
-4. Load unzipped directory from "Load unpacked".
-
 ### How it works
 
 When you visit a long URL Amazon product page:
@@ -45,3 +38,12 @@ this extension automatically rewrites the URL into a shorter one:
 - www.amazon.sa
 - www.amazon.se
 - www.amazon.sg
+
+## Development
+
+### Local installation
+
+1. Download ZIP from [Releases](https://github.com/r7kamura/amazon_url_shortener/releases) and unzip it.
+2. Go to Google Chrome extension settings (chrome://extensions/).
+3. Turn on Developer mode.
+4. Load unzipped directory from "Load unpacked".
