@@ -1,2 +1,5 @@
 # For `convert` temporary files.
 *.TMP
+
+# Files for chrome extension will be output here.
+/output

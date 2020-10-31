@@ -1,0 +1,16 @@
+#!/usr/bin/bash
+set -euo pipefail
+
+package_name="amazon_url_shortener-0-1-0"
+directory_name="output/${package_name}"
+
+rm -rf "${directory_name}"
+mkdir -p "${directory_name}"
+
+cp -r \
+  images \
+  js \
+  manifest.json \
+  "${directory_name}"
+
+zip -r "${directory_name}.zip" "${directory_name}"
