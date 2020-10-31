@@ -9,7 +9,7 @@ convert \
   -gravity center \
   -font Helvetica \
   -pointsize "$((width / 4 * 3))" \
-  -background "#AA3A3A" \
+  -background "#327098" \
   -fill "#FFFFFF" \
   -size "${width}x${height}" \
   label:a \
