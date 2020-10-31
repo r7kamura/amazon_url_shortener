@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+
+- Add many Amazon domains support.
+
 ### Changed
 
 - Change extension name from "amazon_url_shortener" to "Amazon URL Shortener".

@@ -11,12 +11,50 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.amazon.co.jp/*"
+        "https://www.amazon.ae/*",
+        "https://www.amazon.au/*",
+        "https://www.amazon.ca/*",
+        "https://www.amazon.cn/*",
+        "https://www.amazon.co.jp/*",
+        "https://www.amazon.co.uk/*",
+        "https://www.amazon.com/*",
+        "https://www.amazon.com.br/*",
+        "https://www.amazon.com.br/*",
+        "https://www.amazon.com.mx/*",
+        "https://www.amazon.com.tr/*",
+        "https://www.amazon.de/*",
+        "https://www.amazon.es/*",
+        "https://www.amazon.fr/*",
+        "https://www.amazon.in/*",
+        "https://www.amazon.it/*",
+        "https://www.amazon.nl/*",
+        "https://www.amazon.sa/*",
+        "https://www.amazon.se/*",
+        "https://www.amazon.sg/*"
       ],
       "js": ["js/contentScript.js"]
     }
   ],
   "permissions": [
-    "https://www.amazon.co.jp/"
+    "https://www.amazon.ae/",
+    "https://www.amazon.au/",
+    "https://www.amazon.ca/",
+    "https://www.amazon.cn/",
+    "https://www.amazon.co.jp/",
+    "https://www.amazon.co.uk/",
+    "https://www.amazon.com/",
+    "https://www.amazon.com.br/",
+    "https://www.amazon.com.br/",
+    "https://www.amazon.com.mx/",
+    "https://www.amazon.com.tr/",
+    "https://www.amazon.de/",
+    "https://www.amazon.es/",
+    "https://www.amazon.fr/",
+    "https://www.amazon.in/",
+    "https://www.amazon.it/",
+    "https://www.amazon.nl/",
+    "https://www.amazon.sa/",
+    "https://www.amazon.se/",
+    "https://www.amazon.sg/"
   ]
 }
