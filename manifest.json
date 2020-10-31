@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "amazon_url_shortener",
   "description": "Chrome extension to automatically shorten Amazon product URL.",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "content_scripts": [
     {
       "matches": [
