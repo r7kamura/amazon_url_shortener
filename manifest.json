@@ -9,7 +9,7 @@
         "https://amazon.co.jp/*",
         "https://www.amazon.co.jp/*"
       ],
-      "js": ["js/script.js"]
+      "js": ["js/contentScript.js"]
     }
   ],
   "permissions": [
