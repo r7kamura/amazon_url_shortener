@@ -15,10 +15,33 @@ Chrome extension to automatically shorten Amazon product URL.
 
 ### How it works
 
-When you visit an Amazon product page with a long URL:
+When you visit a long URL Amazon product page:
 
-> http://amazon.co.jp/NEW-GAME-1-%E3%81%BE%E3%82%93%E3%81%8C%E3%82%BF%E3%82%A4%E3%83%A0KR%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%BE%97%E8%83%BD%E6%AD%A3%E5%A4%AA%E9%83%8E/dp/4832244140
+> https://www.amazon.com/Fire-Tablet-7/dp/B07HZQBBKL/ref=sr_1_1?dchild=1&keywords=Kindle&qid=1604166896&sr=8-1
 
 this extension automatically rewrites the URL into a shorter one:
 
-> http://amazon.co.jp/dp/4832244140
+> https://www.amazon.com/dp/B07HZQBBKL
+
+### Supported domains
+
+- www.amazon.ae
+- www.amazon.au
+- www.amazon.ca
+- www.amazon.cn
+- www.amazon.co.jp
+- www.amazon.co.uk
+- www.amazon.com
+- www.amazon.com.br
+- www.amazon.com.br
+- www.amazon.com.mx
+- www.amazon.com.tr
+- www.amazon.de
+- www.amazon.es
+- www.amazon.fr
+- www.amazon.in
+- www.amazon.it
+- www.amazon.nl
+- www.amazon.sa
+- www.amazon.se
+- www.amazon.sg
