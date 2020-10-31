@@ -1,5 +1,7 @@
 # Amazon URL Shortener
 
+[![](https://github.com/r7kamura/amazon_url_shortener/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/r7kamura/amazon_url_shortener/actions?query=workflow%3A.github%2Fworkflows%2Ftest.yml)
+
 Chrome extension to automatically shorten Amazon product URL.
 
 ## Usage
