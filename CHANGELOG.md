@@ -20,13 +20,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 - Remove optional affiliate association feature.
-- Drop old browsers that has no ES6 syntax support.
+- Remove old browsers support.
 
 ## 0.0.4 - 2016-06-23
 
 ### Added
 
-- Support HTTPS page.
+- Add HTTPS page support.
 
 ## 0.0.3 - 2015-03-31
 
