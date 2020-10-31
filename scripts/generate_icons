@@ -4,5 +4,5 @@ set -euo pipefail
 widths=(16 64 128)
 for width in "${widths[@]}"
 do
-  ./script/generate_icon "${width}"
+  ./scripts/generate_icon "${width}"
 done
