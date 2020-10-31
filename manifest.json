@@ -3,11 +3,6 @@
   "name": "amazon_url_shortener",
   "description": "Chrome extension to automatically shorten Amazon product URL.",
   "version": "0.0.4",
-  "options_page": "html/options.html",
-  "background": {
-    "scripts": ["js/background.js"],
-    "persistent": false
-  },
   "content_scripts": [
     {
       "matches": [

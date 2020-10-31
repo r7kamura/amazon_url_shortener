@@ -20,7 +20,3 @@ When you visit an Amazon product page with a long URL:
 this extension automatically rewrites the URL into a shorter one:
 
 > http://amazon.co.jp/dp/4832244140
-
-### Pro tip
-
-You can set your own Amazon affiliate ID from options page.
