@@ -1,0 +1,24 @@
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: node-modules
+        with:
+          path: ~/.npm
+          key: ${{ env.cache-name }}-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ env.cache-name }}-
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.0'
+      - run: npm ci
+      - run: npm run lint
