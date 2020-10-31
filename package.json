@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "build": "./scripts/generate_icons",
     "lint": "eslint js"
   },
   "devDependencies": {
