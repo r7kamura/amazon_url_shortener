@@ -26,7 +26,6 @@ this extension automatically rewrites the URL into a shorter one:
 - www.amazon.co.uk
 - www.amazon.com
 - www.amazon.com.br
-- www.amazon.com.br
 - www.amazon.com.mx
 - www.amazon.com.tr
 - www.amazon.de
