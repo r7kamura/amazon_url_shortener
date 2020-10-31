@@ -1,8 +1,6 @@
 #!/usr/bin/bash
 set -euo pipefail
 
-rm -rf ./images
-
 widths=(16 48 128)
 for width in "${widths[@]}"
 do
