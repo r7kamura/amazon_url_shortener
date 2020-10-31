@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 - Remove optional affiliate association feature.
+- Dropped old browsers that has no ES6 syntax support.
 
 ## 0.0.4 - 2016-06-23
 
