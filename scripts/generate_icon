@@ -10,7 +10,7 @@ convert \
   -font Helvetica \
   -pointsize "$((width / 4 * 3))" \
   -background "#AA3A3A" \
-  -fill "#F4F4F4" \
+  -fill "#FFFFFF" \
   -size "${width}x${height}" \
   label:a \
   "images/icon${width}.png"
