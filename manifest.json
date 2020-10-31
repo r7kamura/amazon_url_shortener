@@ -11,14 +11,12 @@
   "content_scripts": [
     {
       "matches": [
-        "https://amazon.co.jp/*",
         "https://www.amazon.co.jp/*"
       ],
       "js": ["js/contentScript.js"]
     }
   ],
   "permissions": [
-    "https://amazon.co.jp/",
     "https://www.amazon.co.jp/"
   ]
 }
