@@ -1,0 +1,1 @@
+This extension needs permissions to some URL patterns to find out the shorter URL from the page user is accessing and rewrite current location by `window.history.pushState`.
