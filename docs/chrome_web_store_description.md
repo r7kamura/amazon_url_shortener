@@ -1,0 +1,9 @@
+## Description
+
+When you visit a long URL Amazon product page:
+
+> https://www.amazon.com/Fire-Tablet-7/dp/B07HZQBBKL/ref=sr_1_1?dchild=1&keywords=Kindle&qid=1604166896&sr=8-1
+
+this extension automatically rewrites the URL into a shorter one:
+
+> https://www.amazon.com/dp/B07HZQBBKL
