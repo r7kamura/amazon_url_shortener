@@ -6,6 +6,10 @@ Chrome extension to automatically shorten Amazon product URL.
 
 ## Usage
 
+### Installation
+
+Install from https://chrome.google.com/webstore/detail/amazon-url-shortener/bonkcfmjkpdnieejahndognlbogaikdg.
+
 ### How it works
 
 When you visit a long URL Amazon product page:
