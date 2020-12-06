@@ -8,7 +8,7 @@ rm -rf "${directory_name}"
 mkdir -p "${directory_name}"
 
 cp -r \
-  images \
+  images/icon*.png \
   js \
   manifest.json \
   "${directory_name}"
