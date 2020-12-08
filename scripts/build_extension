@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 set -euo pipefail
 
-package_name="amazon_url_shortener-0-2-0"
+package_name="amazon_url_shortener-0-3-0"
 directory_name="output/${package_name}"
 
 rm -rf "${directory_name}"
