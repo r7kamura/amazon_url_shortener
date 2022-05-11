@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Changed
+
+- Migrate from manifest v2 to v3.
+
 ## 0.3.0 - 2020-12-08
 
 ### Changed
