@@ -4,7 +4,7 @@
 
 ## 0.3.0 - 2020-12-08
 
-### Chnaged
+### Changed
 
 - Change `pushState` to `replaceState`.
 
