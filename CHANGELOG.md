@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.0.0 - 2022-05-11
+
 ### Changed
 
 - Migrate from manifest v2 to v3.
