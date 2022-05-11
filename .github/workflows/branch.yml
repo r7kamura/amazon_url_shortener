@@ -1,0 +1,11 @@
+name: branch
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+  workflow_dispatch:
+
+jobs:
+  release:
+    uses: r7kamura/workflows/.github/workflows/keep-main-version-branch.yml@main
