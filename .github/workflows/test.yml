@@ -11,17 +11,9 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
-      - name: Cache node modules
-        uses: actions/cache@v2
-        env:
-          cache-name: node-modules
-        with:
-          path: ~/.npm
-          key: ${{ env.cache-name }}-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            ${{ env.cache-name }}-
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2
         with:
           node-version: '14.15.0'
-      - run: npm ci
+          cache: npm
+      - run: npm install
       - run: npm run lint
