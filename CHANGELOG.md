@@ -5,6 +5,7 @@
 ### Changed
 
 - Migrate from manifest v2 to v3.
+- Speed up by detecting ASIN also from URL.
 
 ## 0.3.0 - 2020-12-08
 
