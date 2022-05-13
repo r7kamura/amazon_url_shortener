@@ -2,9 +2,10 @@
 
 ## Unreleased
 
-### Changed
+### Removed
 
 - Remove history permission.
+- Remove buggy URL pattern detection.
 
 ## 1.0.0 - 2022-05-11
 

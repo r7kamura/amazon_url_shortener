@@ -10,9 +10,3 @@ window.onload = () => {
     replaceState(`/dp/${asinElement.value}`);
   }
 };
-
-const href = window.location.href;
-const match = href.match(/\/(?:dp|gp\/product)\/([A-Z0-9]{10})[/?]?/);
-if (match) {
-  replaceState(`/dp/${match[1]}`);
-}
