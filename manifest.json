@@ -33,6 +33,5 @@
       ],
       "js": ["src/main.ts"]
     }
-  ],
-  "permissions": ["history"]
+  ]
 }
