@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.1.0 - 2022-05-13
+
 ### Removed
 
 - Remove history permission.
