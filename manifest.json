@@ -31,6 +31,7 @@
         "https://www.amazon.se/*",
         "https://www.amazon.sg/*"
       ],
+      "run_at": "document_end",
       "js": ["src/main.ts"]
     }
   ]
