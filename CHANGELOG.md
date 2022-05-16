@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.2.1 - 2022-05-17
+
 ### Fixed
 
 - Fix bug that URL won't be shortend in some pages (`window.onload` is untrustworthy).
