@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.2.0 - 2022-05-17
+
 ### Added
 
 - Add URL pattern detection as a fallback for query selector detection.
