@@ -11,6 +11,7 @@
   "content_scripts": [
     {
       "matches": [
+        "https://smile.amazon.com/*",
         "https://www.amazon.ae/*",
         "https://www.amazon.au/*",
         "https://www.amazon.ca/*",

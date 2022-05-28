@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Added
+
+- Support smile.amazon.com.
+
 ## 1.2.1 - 2022-05-17
 
 ### Fixed
