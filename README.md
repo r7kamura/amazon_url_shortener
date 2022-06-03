@@ -42,3 +42,9 @@ this extension automatically rewrites the URL into a shorter one:
 - www.amazon.sa
 - www.amazon.se
 - www.amazon.sg
+
+## Related project
+
+The UserScirpt version of Amazon URL Shortener.
+
+https://github.com/r7kamura/amazon_url_shortener_user_script
