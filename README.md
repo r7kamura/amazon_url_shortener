@@ -22,7 +22,9 @@ this extension automatically rewrites the URL into a shorter one:
 
 ### Supported domains
 
+- smile.amazon.co.uk
 - smile.amazon.com
+- smile.amazon.de
 - www.amazon.ae
 - www.amazon.au
 - www.amazon.ca
