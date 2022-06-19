@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.4.0 - 2022-06-19
+
 ### Added
 
 - Support smile.amazon.co.uk & smile.amazon.de.
