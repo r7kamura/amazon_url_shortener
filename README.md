@@ -22,28 +22,28 @@ this extension automatically rewrites the URL into a shorter one:
 
 ### Supported domains
 
-- smile.amazon.co.uk
-- smile.amazon.com
-- smile.amazon.de
-- www.amazon.ae
-- www.amazon.au
-- www.amazon.ca
-- www.amazon.cn
-- www.amazon.co.jp
-- www.amazon.co.uk
-- www.amazon.com
-- www.amazon.com.br
-- www.amazon.com.mx
-- www.amazon.com.tr
-- www.amazon.de
-- www.amazon.es
-- www.amazon.fr
-- www.amazon.in
-- www.amazon.it
-- www.amazon.nl
-- www.amazon.sa
-- www.amazon.se
-- www.amazon.sg
+- `smile.amazon.co.uk`
+- `smile.amazon.com`
+- `smile.amazon.de`
+- `www.amazon.ae`
+- `www.amazon.au`
+- `www.amazon.ca`
+- `www.amazon.cn`
+- `www.amazon.co.jp`
+- `www.amazon.co.uk`
+- `www.amazon.com`
+- `www.amazon.com.br`
+- `www.amazon.com.mx`
+- `www.amazon.com.tr`
+- `www.amazon.de`
+- `www.amazon.es`
+- `www.amazon.fr`
+- `www.amazon.in`
+- `www.amazon.it`
+- `www.amazon.nl`
+- `www.amazon.sa`
+- `www.amazon.se`
+- `www.amazon.sg`
 
 ## Related project
 
