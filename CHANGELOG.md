@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.4.1 - 2024-12-14
+
 ### Fixed
 
 - Fix CSP error in Chrome 130+.
