@@ -4,7 +4,7 @@ export const manifest = defineManifest({
   manifest_version: 3,
   name: "Amazon URL Shortener",
   description: "Automatically shorten Amazon product URL.",
-  version: "1.4.1",
+  version: "1.5.0",
   icons: {
     "16": "images/icon16.png",
     "48": "images/icon48.png",

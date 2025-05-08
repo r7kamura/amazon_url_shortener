@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.5.0 - 2025-05-08
+
 ### Added
 
 - Add supported domains.
