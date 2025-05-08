@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Added
+
+- Add supported domains.
+
 ## 1.4.1 - 2024-12-14
 
 ### Fixed
