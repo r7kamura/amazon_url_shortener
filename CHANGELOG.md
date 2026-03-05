@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.5.1 - 2026-03-05
+
 ### Fixed
 
 - Fix unexpected behavior on no ASIN element value page
