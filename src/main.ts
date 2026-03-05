@@ -6,7 +6,7 @@ const asinElement = document.querySelector(
   '#ASIN, input[name="idx.asin"], input[name="ASIN.0"], input[name="titleID"]'
 ) as HTMLInputElement;
 
-if (asinElement) {
+if (asinElement && asinElement.value) {
   replaceState(`/dp/${asinElement.value}`);
 } else {
   const href = window.location.href;
