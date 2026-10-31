@@ -14,5 +14,6 @@ jobs:
     steps:
       - uses: r7kamura/bump-request@v0
         with:
-          command: sed -i -E "s/^  version: \"[^\"]+\",/  version: \"$VERSION\",/" manifest.ts
+          command: |
+            sed -i -E "s/^  version: \"[^\"]+\",/  version: \"$VERSION\",/" manifest.ts
           version: ${{ inputs.version }}
