@@ -2,12 +2,31 @@ name: release
 
 on:
   push:
-    tags:
-      - "v*.*.*"
+    branches:
+      - main
+    paths:
+      - manifest.ts
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   release:
-    uses: r7kamura/workflows/.github/workflows/github-release.yml@main
-    secrets:
-      github-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Create release if version changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          version=$(sed -n -E 's/^  version: "([^"]+)",/\1/p' manifest.ts)
+          if [ -z "$version" ]; then
+            echo "Version not found in manifest.ts" >&2
+            exit 1
+          fi
+          if git ls-remote --exit-code --tags origin "refs/tags/v$version" > /dev/null; then
+            echo "v$version already exists"
+            exit 0
+          fi
+          gh release create "v$version" --target "$GITHUB_SHA" --title "v$version" --generate-notes
