@@ -1,0 +1,18 @@
+name: bump-request
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Next version (e.g. 1.2.3).
+        required: true
+        type: string
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: r7kamura/bump-request@v0
+        with:
+          command: sed -i -E "s/^  version: \"[^\"]+\",/  version: \"$VERSION\",/" manifest.ts
+          version: ${{ inputs.version }}
